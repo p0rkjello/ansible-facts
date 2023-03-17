@@ -1,5 +1,3 @@
 ---
-
 - name: Collect facts
-  hosts: all
-  setup:
+  ansible.builtin.setup:
