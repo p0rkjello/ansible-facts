@@ -1,4 +1,5 @@
 ---
 
 - name: Collect facts
+  hosts: all
   setup:
